@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.jiujichina</groupId>
+    <artifactId>jiujichina-common-parent</artifactId>
+    <version>1.0.1</version>
+  </parent>
+  
+  <groupId>com.jiujichina</groupId>
+  <artifactId>jiujichina-common-core</artifactId>
+  <version>${jiujichina-common-core.version}</version>
+  
+  <dependencies>
+  
+     <dependency>
+	      <groupId>com.jiujichina</groupId>
+	     <artifactId>jiujichina-common-base</artifactId>
+	     <version>${jiujichina-common-base.version}</version>
+	  </dependency>
+	  
+	  <dependency>
+	      <groupId>com.jiujichina</groupId>
+	     <artifactId>jiujichina-common-utils</artifactId>
+	     <version>${jiujichina-common-utils.version}</version>
+	  </dependency>
+	  
+	  <dependency>
+	      <groupId>com.jiujichina</groupId>
+	      <artifactId>jiujichina-common-redis</artifactId>
+	     <version>${jiujichina-common-redis.version}</version>
+	  </dependency>
+	  
+	  <dependency>
+	     <groupId>com.jiujichina</groupId>
+	     <artifactId>jiujichina-common-mongodb</artifactId>
+	     <version>${jiujichina-common-mongodb.version}</version>
+	  </dependency>
+	  
+     
+  </dependencies>
+   
+</project>
