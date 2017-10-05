@@ -10,6 +10,14 @@
   <artifactId>jiujichina-common-core</artifactId>
   <version>${jiujichina-common-core.version}</version>
   
+    <repositories>
+       <repository>
+           <id>nexus</id>
+            <name>Team Nexus Repository</name>
+            <url>http://www.jiujichina.com:8081/nexus/content/groups/public</url>
+       </repository>  
+  </repositories>
+  
   <dependencies>
   
      <dependency>
@@ -38,5 +46,27 @@
 	  
      
   </dependencies>
+  
+    <pluginRepositories>
+        <pluginRepository>
+            <id>nexus</id>
+            <name>Team Nexus Repository</name>
+            <url>http://www.jiujichina.com:8081/nexus/content/groups/public</url>
+        </pluginRepository>
+    </pluginRepositories>
+    
+    <distributionManagement> 
+		<repository>
+			<id>releases</id>
+			<name>Nexus Release Repository</name>
+			<url>http://www.jiujichina.com:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Nexus Snapshot Repository</name>
+			<url>http://www.jiujichina.com:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>  
+	
    
 </project>
