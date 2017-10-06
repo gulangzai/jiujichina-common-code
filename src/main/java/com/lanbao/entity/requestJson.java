@@ -1,4 +1,4 @@
-﻿package com.lanbao.entity;
+package com.lanbao.entity;
 
 public class requestJson implements java.io.Serializable {
 

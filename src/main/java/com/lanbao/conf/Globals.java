@@ -1,4 +1,4 @@
-﻿package com.lanbao.conf;
+package com.lanbao.conf;
 
 /**
  *
